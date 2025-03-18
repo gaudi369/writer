@@ -1,5 +1,5 @@
 # Pre Set Up
-GOOGLE_API_KEY='AIzaSyDQzKErcqZncO59-jAQSeLmyUQl6VNhb1Y'
+GOOGLE_API_KEY=''
 
 from google import genai
 from google.genai import types
