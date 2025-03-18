@@ -3,7 +3,7 @@ import time
 from google import genai
 from google.genai import types
 
-GOOGLE_API_KEY='AIzaSyDQzKErcqZncO59-jAQSeLmyUQl6VNhb1Y'
+GOOGLE_API_KEY=''
 
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
