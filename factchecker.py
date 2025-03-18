@@ -6,7 +6,7 @@ from google.genai.errors import ServerError
 from PFGeneratorV3_5 import chat_with_retry, parse_with_retry
 from memory import conn, save_to_table, write_field_to_file, retrieve_from_database  # Import the database connection
 
-GOOGLE_API_KEY = 'AIzaSyDQzKErcqZncO59-jAQSeLmyUQl6VNhb1Y'
+GOOGLE_API_KEY = ''
 
 client = genai.Client(api_key=GOOGLE_API_KEY)
 
